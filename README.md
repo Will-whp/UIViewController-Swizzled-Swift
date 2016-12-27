@@ -16,7 +16,7 @@ Requirements
 * Swift 3
 
 ------------------------------------
-Adding UIViewController-Swizzled-Swift to your project
+Install
 ====================================
 
 *	Just add the one file inside your project (`UIViewController+Swizzled.swift`).
