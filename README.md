@@ -12,20 +12,20 @@ Category used to map your way inside an application. This is specially useful wh
 Requirements
 ============
  
-* Xcode8
-* Swift3
+* Xcode 8
+* Swift 3
 
 ------------------------------------
 Adding UIViewController-Swizzled-Swift to your project
 ====================================
 
-*	Just add the two files inside your project (`UIViewController+Swizzled.swift`).
+*	Just add the one file inside your project (`UIViewController+Swizzled.swift`).
 
 -----
 Usage
 =====
 
-In order to get the full output you should `UIViewController.swizzIt()` right in the AppDelegate `func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool`. If for some reason you want to stop, just `UIViewController.undoSwizz()`.
+In order to get the full output you should `UIViewController.swizzIt()` right in the AppDelegate. If for some reason you want to stop, just `UIViewController.undoSwizz()`.
 ```Swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         UIViewController.swizzIt()
@@ -58,9 +58,9 @@ This will output:
 -------
 License
 =======
-
 This code is distributed under the terms and conditions of the MIT license. 
 
-
-See Also
+-----
+Thanks for
+=====
 https://github.com/RuiAAPeres/UIViewController-Swizzled
